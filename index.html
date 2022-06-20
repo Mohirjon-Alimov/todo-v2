@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-dars todo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+
+  <main>
+    <section>
+      <div class="container mt-4">
+        <form class="form">
+          <div class="d-flex justify-content-center align-items-center ">
+            <input class="input m-3 border-0 border-bottom border-dark" type="text" placeholder="type..." required>
+
+            <button class="btn btn-outline-info m-3">Add</button>
+          </div>
+
+          
+        </form>
+
+        <div class="d-flex flex-column">
+          <ul class="todos-list"></ul>
+
+          <button class="allBtn btn btn-outline-info w-25">All <span class="allNum"></span></button>
+          <button class="completedBtn btn btn-outline-info w-25">Completed <span class="CompletedNum"></span></button>
+          <button class="uncompletedBtn btn btn-outline-info w-25">Uncompleted <span class="uncomNum"></span></button>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="./js/todo.js"></script>
+</body>
+</html>
